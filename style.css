@@ -1,11 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: times;
   color: white;
   text-align: center;
-  font-size: 3vh;
-  letter-spacing: 2px;
   -webkit-text-stroke-color: black;
 }
 
@@ -13,7 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 750px;
+  height: 800px;
   background-attachment: fixed;
   align-items: center;
 }
@@ -24,8 +21,10 @@ body {
 }
 
 p{
-font-size: 22px;
--webkit-text-stroke-width: 0.2px;
+font-size: 21px;
+letter-spacing: 2px;
+font-family: Tahoma;
+-webkit-text-stroke-width: 0.1px;
 }
 
 h1{
@@ -36,12 +35,19 @@ h1{
   -webkit-text-stroke-width: 4px;
 }
 
-h3{
+h2{
   margin-top: -120px;
   font-size: 60px;
   letter-spacing: 5px;
   font-family: Helvetica;
   -webkit-text-stroke-width: 3px;
+}
+
+h3{
+font-size: 25px;
+letter-spacing: 2px;
+font-family: Arial;
+-webkit-text-stroke-width: 0.1px;
 }
 
 .text {
@@ -50,13 +56,13 @@ h3{
   width: 100%;
   background-color: rgba(0,0,0,0.6);
   text-align: center;
-  min-width: 600px;
-  max-width: 600px;
+  min-width: 640px;
+  max-width: 640px;
 }
 
 .border {
   border-radius: 20%;
-  width: 70px;
+  width: 80px;
 }
 
 .Myself {
@@ -68,7 +74,7 @@ h3{
 }
 
 .Zorianff9 {
-  background-image: url(images/Zorianff9.png);
+  background-image: url(images/Rinne.png);
 }
 
 .Hands {
@@ -80,5 +86,5 @@ h3{
 }
 
 .Link {
-  background-image: url();
+  background-image: url(images/Prerequisites.png);
 }

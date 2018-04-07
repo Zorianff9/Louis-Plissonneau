@@ -10,7 +10,6 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 800px;
   background-attachment: fixed;
   align-items: center;
 }
@@ -73,24 +72,30 @@ footer {
 
 .Myself {
   background-image: url(images/Myself.jpg);
+  height: 800px;
 }
 
 .Languages {
   background-image: url(images/Languages.jpg);
+  height: 800px;
 }
 
 .Zorianff9 {
   background-image: url(images/Rinne.png);
+  height: 800px;
 }
 
 .Hands {
   background-image: url(images/Hands.jpg);
+  height: 800px;
 }
 
 .Earth {
   background-image: url(images/Earth.png);
+  height: 800px;
 }
 
 .Link {
   background-image: url(images/Prerequisites.jpg);
+  height: 500px;
 }

@@ -1,2 +1,2 @@
-# First Attempt of One-Page Website
+# One-Page Website
 

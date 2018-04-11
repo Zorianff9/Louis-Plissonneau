@@ -101,11 +101,7 @@ font-family: Arial;
   height: 520px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 1200px) {
-=======
-@media (max-width: 750px) {
->>>>>>> a25c33fadf0ae037589bf8fedbabc04fee969e1d
   .img{
     background-attachment: scroll;
   }

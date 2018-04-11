@@ -101,7 +101,7 @@ font-family: Arial;
   height: 40vmax;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
   .img{
     background-attachment: scroll;
   }

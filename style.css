@@ -9,7 +9,7 @@ body{
 .img{
   background-size: cover;
   background-position: center;
-  width: 99vw;
+  width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -40,7 +40,7 @@ h2{
 }
 
 p{
-font-size: 1.5vw;
+font-size: 21px;
 letter-spacing: 2px;
 font-family: Tahoma;
 -webkit-text-stroke-width: 0.1px;
@@ -60,7 +60,7 @@ footer{
 }
 
 h3{
-font-size: 2vw;
+font-size: 30px;
 letter-spacing: 2px;
 font-family: Arial;
 -webkit-text-stroke-width: 0.1px;
@@ -68,72 +68,72 @@ font-family: Arial;
 
 .border{
   border-radius: 20%;
-  width: 8vw;
+  width: 100px;
 }
 
 .Myself{
   background-image: url(images/Myself.jpg);
-  height: 60vmax;
+  height: 800px;
 }
 
 .Languages{
   background-image: url(images/Languages.jpg);
-  height: 60vmax;
+  height: 800px;
 }
 
 .Zorianff9{
   background-image: url(images/Rinne.png);
-  height: 60vmax;
+  height: 800px;
 }
 
 .Hands{
   background-image: url(images/Hands.jpg);
-  height: 60vmax;
+  height: 800px;
 }
 
 .Earth{
   background-image: url(images/Earth.png);
-  height: 60vmax;
+  height: 800px;
 }
 
 .Link{
   background-image: url(images/Prerequisites.jpg);
-  height: 40vmax;
+  height: 520px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .img{
     background-attachment: scroll;
   }
   .text{
-    padding: 0.5vh;
+    padding: 0vh 1vh 0vh 1vh;
     width: 100%;
   }
   p{
-  font-size: 2vh;
+  font-size: 3vmin;
 }
 
 .Myself{
-  height: 55vmin;
+  height: 55vw;
 }
 
 .Languages{
-  height: 55vmin;
+  height: 55vw;
 }
 
 .Zorianff9{
-  height: 80vmin;
+  height: 80vw;
 }
 
 .Hands{
-  height: 80vmin;
+  height: 80vw;
 }
 
 .Earth{
-  height: 80vmin;
+  height: 80vw;
 }
 
 .Link{
-  height: 55vmin;
+  height: 55vw;
 }
 }
